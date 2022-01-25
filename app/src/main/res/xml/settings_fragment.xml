@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Following this page https://developer.android.com/guide/topics/ui/settings,
+     this file need to be in this folder -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_splash">
+
+    <PreferenceCategory
+        app:key="cat_ui"
+        app:title="UI">
+
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/ui_language_titles"
+            android:entryValues="@array/ui_language_values"
+            android:key="ui_language"
+            android:title="@string/ui_language_title"
+            app:summary="Actually, %s" />
+
+        <ListPreference
+            android:defaultValue="dark"
+            android:entries="@array/ui_theme_titles"
+            android:entryValues="@array/ui_theme_values"
+            android:key="ui_theme"
+            android:title="@string/ui_theme_title"
+            app:summary="Actually, %s" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="cat_datas"
+        app:title="DATAS">
+
+<!--        <Preference-->
+<!--            app:key="datas_import_data_xml"-->
+<!--            app:summary="Import your data in XML format"-->
+<!--            app:title="Import your data in XML" />-->
+
+<!--        <Preference-->
+<!--            app:key="datas_export_data_xml"-->
+<!--            app:summary="Export your data in XML format"-->
+<!--            app:title="Export your data in XML" />-->
+
+        <Preference
+            app:key="datas_export_data_sqlite"
+            app:summary="Export your data in SQLITE format"
+            app:title="Export your data in SQLITE" />
+
+        <Preference
+            app:key="datas_erase_data"
+            app:summary="This will delete all your data"
+            app:title="Erase all your data" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="cat_tweaks"
+        app:title="TWEAKS">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            app:key="tweaks_permanent_notification"
+            app:summary="@string/settings_other_permanent_notif_description"
+            app:title="Let a permanent notification" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            app:key="tweaks_restart_reboot"
+            app:title="Restart the app at reboot" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="tweaks_reminder_notif_enable"
+            android:title="Enable daily notification"
+            app:summary="Currently" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="cat_other"
+        app:title="OTHER">
+
+        <Preference
+            app:key="other_dev_settings"
+            app:summary="@string/settings_other_dev_description"
+            app:title="@string/settings_other_dev_title" />
+
+        <Preference
+            app:key="other_feedback"
+            app:summary="@string/settings_other_feedback_description"
+            app:title="@string/settings_other_feedback_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

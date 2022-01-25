@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_splash"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="17dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="Utility Tools"
+            android:textAlignment="gravity"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/menu_btn"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#04619f"
+            app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="88dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="201dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/activity_layout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Your Activity"
+                        android:textAlignment="center"
+                        android:textSize="24sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/Activity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#ffffff"
+                        app:srcCompat="@drawable/limit" />
+
+                    <TextView
+                        android:id="@+id/act"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:ems="10"
+                        android:text="Today\n 1hr 32min"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/activity_layout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Stay Focused"
+                        android:textAlignment="center"
+                        android:textSize="24sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/focused"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#ffffff"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/target" />
+
+                    <TextView
+                        android:id="@+id/focus"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:text="" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="201dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/activity_layout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Productivity"
+                        android:textAlignment="center"
+                        android:textSize="24sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/product"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#ffffff"
+                        app:srcCompat="@drawable/shipping" />
+
+                    <TextView
+                        android:id="@+id/prodtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:text="" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/activity_layout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Health Fitness"
+                        android:textAlignment="center"
+                        android:textSize="22sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/health_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#ffffff"
+                        app:srcCompat="@drawable/dumbbell" />
+
+                    <TextView
+                        android:id="@+id/healthtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:text="" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

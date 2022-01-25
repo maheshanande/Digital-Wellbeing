@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable-v24/ic_baseline_hourglass_empty_24.xml" value="0.121875" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable-v24/permission_button.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable-v24/rounded_corner.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable/activity_layout.xml" value="0.121875" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable/circle.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable/gradient_splash.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.23493360572012256" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable/ic_baseline_pause_24.xml" value="0.23493360572012256" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable/radius_border_button.xml" value="0.121875" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/drawable/radius_border_button_text.xml" value="0.121875" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/about_fragment.xml" value="0.1015625" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/activity_add_modify_task.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/activity_your.xml" value="0.264" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/custom_backup_restore_alertdialog.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/custom_daily_reminder_time_picker.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/custom_menu.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/date_picker.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/details_fragment.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/dev_fragment.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/handle_permissions_fragment.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/healthfitness.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/installed_app_list.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/jgj.xml" value="0.1015625" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/license_fragment.xml" value="0.1015625" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/loading_layout.xml" value="0.1015625" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/main_fragment.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/main_fragment_app_listview_one_elem.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/menu.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/notification.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/productivity_main.xml" value="0.176" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/settings_fragment.xml" value="0.1015625" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/stay_focused.xml" value="0.2" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/layout/task_list_row.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/menu/main_screen_option_menu.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/MAHESH ANANDE/AndroidStudioProjects/Digital_Wellbeing/app/src/main/res/xml/settings_fragment.xml" value="0.21927083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

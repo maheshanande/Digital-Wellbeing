@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_splash">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Build Profile"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dip"
+            android:layout_marginTop="40dp"
+            android:text="Gender"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Female"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Height"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/heightval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white"
+                android:hint="Enter Height in Cm" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Weight"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/weightval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white"
+                android:hint="Enter Weight in Kg" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/teal_700"
+            android:padding="5dip"
+            android:text="Check-->"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

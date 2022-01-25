@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Digital_Wellbeing</string>
+    <string name="progressbar_txt">5 hr, 36 min</string>
+    <string name="FocusDisplayTXT">When you need time to focus, you can pause distracting apps and hide their notification, pause them</string>
+    <string name="app_description">The goal of this app is to track your use of your apps.\n
+    This way, you have datas about the time you spend on your phone.\n
+    Feel free to contribute ! </string>
+
+    <!--Main fragment-->
+    <string name="main_textView_screen_time">Today:</string>
+    <string name="number_of_unlocks_textview">Number of unlocks:</string>
+
+    <!-- Details fragment -->
+    <string name="details_fragment_title">Details of</string>
+    <string name="details_description_charts">The values are in minutes</string>
+    <string name="details_app_uninstalled">Not installed</string>
+
+    <!-- Permissions Fragment-->
+    <string name="permissions_fragment_text">In order to use this app, you need to grant special authorization.\nThis app will not upload any of your data on any server.</string>
+    <string name="permissions_fragment_button">Grant permissions</string>
+
+    <!--About Fragment-->
+    <string name="see_licences_button">See Licences used</string>
+
+    <!--Settings fragment-->
+    <string name="main_screen_option_menu_settings">Settings</string>
+    <string name="ui_theme_title">Theme</string>
+    <string name="ui_language_title">Language</string>
+    <string name="settings_ui_system">Let the system decide</string>
+    <string name="settings_ui_theme_clear">Clear</string>
+    <string name="settings_ui_theme_dark">Dark</string>
+    <string name="settings_ui_theme_black">Black (better for AMOLED)</string>
+    <string name="settings_ui_theme_battery_saver">Set by battery saver</string>
+    <string name="settings_ui_language_EN">English</string>
+    <string name="settings_ui_language_FR">French</string>
+
+    <string name="settings_other_permanent_notif_description">Avoid the background service to be killed by system</string>
+    <string name="settings_other_feedback_title">Send feedback</string>
+    <string name="settings_other_feedback_description">Report technical issues or suggest new features</string>
+    <string name="settings_other_dev_title">Developper / Debugging settings</string>
+    <string name="settings_other_dev_description">Tools useful for debugging</string>
+
+    <!-- Option Menu -->
+    <string name="about_additional_software_licenses">Licences</string>
+    <string name="main_screen_option_menu_about">About</string>
+    <string name="settings_fragment_title">Settings</string>
+    <string name="icon_of_the_app_main_listview_on_elem">Icon of the app</string>
+
+    <!-- Notification strings -->
+    <string name="notif_permanent_channel_desc">Channel used to send ONLY the permanent notification</string>
+    <string name="notif_normal_channel_desc">Channel used to send normal notifications such as reminder, etc...</string>
+    <string name="notif_permanent_name">Permanent notification</string>
+    <string name="notif_normal_name">Normal notification</string>
+    <string name="notif_permanent_notif_desc">is running in background!</string>
+
+    <!-- Miscellaneous -->
+    <string name="main_screen_option_refresh">Refresh datas</string>
+    <string name="easter_discovered">Well played ! You discovered the easter egg !</string>
+    <string name="origin_icon">The icon of this app is coming from flaticon.com</string>
+    <string name="toast_error_custom_path_backup_restore_android_too_old">Android version too old. Save will be at default location</string>
+    <string name="toast_error_custom_path_backup_restore_fail">Failed to open a file explorer. Save will be at default location</string>
+    <string name="details_error_app_pkg_null">Oops ! There is an error. Please try again later</string>
+    <string name="custom_backup_alertdialog_save_datas">Save my datas</string>
+    <string name="custom_backup_alertdialog_save_settings">Save my settings</string>
+    <string name="custom_restore_alertdialog_save_datas">Restore my datas</string>
+    <string name="custom_restore_alertdialog_save_settings">Restore my settings</string>
+    <string name="custom_backup_title_alertdialog">Choose what you want to export</string>
+    <string name="custom_restore_title_alertdialog">Choose what you want to restore</string>
+    <string name="custom_daily_reminder_title_alertdialog">When do you want to get the notification ?</string>
+    <string name="settings_alertdialog_erase_title">Erase all your datas ?</string>
+    <string name="license_app_licence">Copyright 2020 lubenard Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS ISBASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="license_app_title">This app use Apache 2 Licence.</string>
+    <string name="license_app_source">You can see the source code of this app here : </string>
+    <string name="license_mpandroidCharts_title">This app use parts of MPAndroidCharts under the Apache 2 Licence.</string>
+    <string name="license_mpandroidCharts_licence">Copyright 2020 Philipp Jahoda Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS ISBASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+
+</resources>

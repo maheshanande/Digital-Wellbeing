@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_splash">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="381dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="94dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#04619f"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="145dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:text="Digital wellbeing"
+            android:textAlignment="gravity"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#04619f"
+            app:srcCompat="@drawable/ic_baseline_menu_24" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+
+        android:layout_width="251dp"
+        android:layout_height="0dp"
+        android:indeterminateOnly="false"
+        android:progress="0"
+        android:progressDrawable="@drawable/circle"
+        android:rotation="-90"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:progress="0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="10dp"
+        android:text="Today"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_view_progress"
+        app:layout_constraintEnd_toEndOf="@+id/text_view_progress"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <TextView
+        android:id="@+id/text_view_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="72dp"
+        android:text="@string/progressbar_txt"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="333dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_progress">
+
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="Unlocks"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/unlock_disp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="Notifications"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="500"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
